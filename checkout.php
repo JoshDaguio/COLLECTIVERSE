@@ -7,7 +7,7 @@ if (!isset($_SESSION['cart']) || empty($_SESSION['cart'])) {
     exit();
 }
 
-$stripe_secret_key = "sk_test_51PGkyBHKl98vlgXrqs4a37enMDUBZLjPUKSPeGdLZh88Em2kn4SnvOSBZ4k1y6NJyQorcRkdRwTvWuhVZgM6zJxN007VsDt0ip"; // change this with your own secret key
+$stripe_secret_key = ""; // change this with your own secret key
 
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
