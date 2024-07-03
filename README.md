@@ -1,3 +1,3 @@
 # COLLECTIVERSE
-Funko Pop Ecommerce Website with n8n and Strip Integration
+Funko Pop Ecommerce Website with n8n and Stripe Integration
 
